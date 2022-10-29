@@ -1,0 +1,15 @@
+{
+  "name": "stage_1",
+  "version": "1.0.0",
+  "description": "for the purpose of testing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "xanta-codes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
