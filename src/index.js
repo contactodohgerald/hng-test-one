@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
         bio : 'I`m a graduate of Microbiology with programming skills. I have been designing and creating websites since 2021. I develop web applications with tools such as NodeJs where i use framework like expressJs, adonisJs and PHP where  use framework like Laravel. Finding solutions to challenges, and focused on customer satisfaction.',
     };
 
-    return res.status(200).json({message, data})
+    return res.set('Content-Type', 'application/json').status(200).json({message, data})
 });
 
 app.listen(port, () => {
